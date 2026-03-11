@@ -11,7 +11,6 @@
 
 <body>
 
-<!-- HEADER -->
 <header class="header">
 <div class="container header-content">
 
@@ -27,22 +26,77 @@
 </div>
 </header>
 
-<!-- PROJECTS -->
+
 <section class="projects">
 <div class="container">
 
 <h2>Projects</h2>
 
-<!-- LMS BACKEND -->
+
+
+<div class="project-card">
+
+<h3>Knowledge Hub API</h3>
+
+<p class="project-description">
+Production-ready backend API built with NestJS for managing
+technical resources, developer knowledge and learning progress.
+</p>
+
+<ul class="project-tech">
+
+<li>NestJS</li>
+<li>TypeScript</li>
+<li>PostgreSQL</li>
+<li>Prisma ORM</li>
+<li>Redis</li>
+<li>Docker</li>
+<li>JWT Authentication</li>
+<li>Refresh Token Rotation</li>
+<li>RBAC</li>
+<li>Swagger</li>
+<li>Jest</li>
+
+</ul>
+
+<p class="project-role">
+
+Designed and implemented a modular backend architecture
+using NestJS modules.
+
+Features include:
+
+• secure authentication with refresh token rotation  
+• Redis caching with cache invalidation  
+• resources, categories and favorites system  
+• role-based authorization  
+• Swagger API documentation  
+• integration testing  
+
+</p>
+
+<div class="project-links">
+
+<a
+href="https://github.com/sebasolarte22/knowledge-hub-api"
+target="_blank"
+class="btn secondary"
+>
+GitHub
+</a>
+
+</div>
+
+</div>
+
+
+
 <div class="project-card">
 
 <h3>Educational LMS Backend API</h3>
 
 <p class="project-description">
-Production-ready REST API for an educational platform.  
-The system manages authentication, courses, enrollments,
-lesson progress and favorites while implementing caching,
-secure authentication and a scalable backend architecture.
+Production-ready REST API for an educational platform.
 </p>
 
 <ul class="project-tech">
@@ -50,33 +104,12 @@ secure authentication and a scalable backend architecture.
 <li>Node.js</li>
 <li>Express</li>
 <li>PostgreSQL</li>
-<li>Redis (caching)</li>
+<li>Redis</li>
 <li>Docker</li>
-<li>JWT Authentication</li>
-<li>Refresh Token Rotation</li>
-<li>Role-based Access Control</li>
-<li>Structured Logging</li>
-<li>Integration Testing</li>
-<li>AI API Integration</li>
+<li>JWT</li>
+<li>RBAC</li>
 
 </ul>
-
-<p class="project-role">
-
-Designed and implemented the backend architecture following
-a service-based structure (controllers → services → infrastructure).
-
-Implemented:
-
-• secure authentication with refresh token rotation  
-• Redis cache-aside pattern with cache invalidation  
-• role-based access control  
-• structured logging with Winston  
-• integration tests using Jest and Supertest  
-
-The system is containerized with Docker and deployed to the cloud.
-
-</p>
 
 <div class="project-links">
 
@@ -88,53 +121,28 @@ class="btn secondary"
 GitHub
 </a>
 
-<a
-href="https://educational-backend-api.onrender.com"
-target="_blank"
-class="btn secondary"
->
-Live API
-</a>
-
 </div>
 
 </div>
 
-<!-- API DASHBOARD -->
+
+
 <div class="project-card">
 
 <h3>LMS API Testing Dashboard</h3>
 
 <p class="project-description">
-Interactive dashboard built to test and visualize the LMS backend API.
-The interface allows authentication, course management, enrollments,
-and lesson progress simulation directly from the browser.
+Frontend dashboard used to test the backend API.
 </p>
 
 <ul class="project-tech">
 
 <li>HTML</li>
 <li>CSS</li>
-<li>Vanilla JavaScript</li>
-<li>Fetch API</li>
+<li>JavaScript</li>
 <li>REST API Integration</li>
 
 </ul>
-
-<p class="project-role">
-
-Designed as a lightweight frontend tool to interact with the backend API.
-It allows testing real endpoints such as:
-
-• authentication (register/login)  
-• course listing and CRUD operations  
-• enrollments  
-• lesson progress tracking  
-• API response visualization  
-
-The dashboard connects to the production API deployed in the cloud.
-
-</p>
 
 <div class="project-links">
 
@@ -158,10 +166,11 @@ Live Demo
 
 </div>
 
-<!-- HR SYSTEM -->
+
+
 <div class="project-card">
 
-<h3>HR Management System (Enterprise Project)</h3>
+<h3>HR Management System</h3>
 
 <p class="project-description">
 Enterprise HR system focused on employee records,
@@ -170,31 +179,17 @@ document management and business process automation.
 
 <ul class="project-tech">
 
-<li>Business process analysis</li>
-<li>Database modeling</li>
-<li>System design</li>
-<li>Enterprise application support</li>
+<li>Business Process Analysis</li>
+<li>Database Modeling</li>
+<li>Enterprise Software</li>
 
 </ul>
-
-<p class="project-role">
-
-Participating in the system design and analysis of business processes
-for an HR management application used in a real software environment.
-
-Responsibilities include:
-
-• database structure design  
-• document digitalization workflows  
-• SQL queries and system support  
-• collaboration with development teams  
-
-</p>
 
 </div>
 
 </div>
 </section>
+
 
 <footer class="footer">
 <div class="container">

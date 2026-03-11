@@ -12,7 +12,6 @@
 
 <body>
 
-<!-- HEADER -->
 <header class="header">
 <div class="container header-content">
 
@@ -33,24 +32,24 @@
 </div>
 </header>
 
-<!-- HERO -->
+
 <section class="hero">
 <div class="container hero-content">
 
-<!-- ENGLISH -->
+
 <div class="lang lang-en active">
 
 <h2>Backend Developer</h2>
 
 <p class="hero-text">
 Backend Developer focused on building scalable backend systems,
-secure APIs, and database-driven applications.
+secure APIs and database-driven applications.
 </p>
 
 <p class="hero-subtext">
 Experience building production-ready systems with Node.js,
-PostgreSQL, Redis caching, JWT authentication, Dockerized infrastructure,
-and cloud deployment.
+NestJS, PostgreSQL, Redis caching, JWT authentication,
+Dockerized infrastructure and cloud deployment.
 </p>
 
 <div class="hero-actions">
@@ -60,7 +59,7 @@ and cloud deployment.
 
 </div>
 
-<!-- SPANISH -->
+
 <div class="lang lang-es">
 
 <h2>Backend Developer</h2>
@@ -71,8 +70,9 @@ APIs seguras y aplicaciones basadas en bases de datos.
 </p>
 
 <p class="hero-subtext">
-Experiencia construyendo sistemas listos para producción con Node.js,
-PostgreSQL, Redis caching, autenticación JWT, infraestructura con Docker
+Experiencia construyendo sistemas listos para producción con
+Node.js, NestJS, PostgreSQL, Redis caching,
+autenticación JWT, infraestructura con Docker
 y despliegue en la nube.
 </p>
 
@@ -86,31 +86,38 @@ y despliegue en la nube.
 </div>
 </section>
 
-<!-- SYSTEM ARCHITECTURE -->
+
+
 <section class="projects">
 <div class="container">
 
-<h2>System Architecture</h2>
+<h2>Backend Architecture</h2>
 
 <div class="project-card">
 
 <p class="project-description">
-Example architecture used in my backend projects.
-Production-ready backend API connected with caching, database
-and cloud deployment.
+Example architecture used in my backend systems.
+Production-ready API architecture including authentication,
+database layer, caching and containerized infrastructure.
 </p>
 
 <pre style="margin-top:20px;color:#38bdf8">
 
-Frontend Dashboard (Netlify)
-        │
-        ▼
-Backend API (Node.js + Express)
-        │
-   ┌────┴─────┐
-   ▼          ▼
+Client Application
+      │
+      ▼
+API Layer (NestJS / Express)
+      │
+      ▼
+Authentication (JWT + Refresh Tokens)
+      │
+      ▼
+Service Layer
+      │
+ ┌────┴─────┐
+ ▼          ▼
 PostgreSQL   Redis
-(Database)   (Caching Layer)
+Database     Cache Layer
 
 </pre>
 
@@ -119,7 +126,8 @@ PostgreSQL   Redis
 </div>
 </section>
 
-<!-- BACKEND FOCUS -->
+
+
 <section class="projects">
 <div class="container">
 
@@ -130,14 +138,15 @@ PostgreSQL   Redis
 <ul class="project-tech">
 
 <li>REST API Design</li>
-<li>Node.js / Express</li>
+<li>Node.js</li>
+<li>NestJS</li>
 <li>PostgreSQL Database Modeling</li>
 <li>Redis Caching Strategies</li>
 <li>JWT Authentication</li>
 <li>Refresh Token Rotation</li>
 <li>Role-based Access Control</li>
 <li>Dockerized Infrastructure</li>
-<li>Structured Logging</li>
+<li>API Documentation (Swagger)</li>
 <li>Integration Testing</li>
 <li>API Security</li>
 <li>Cloud Deployment</li>
@@ -149,7 +158,7 @@ PostgreSQL   Redis
 </div>
 </section>
 
-<!-- FOOTER -->
+
 <footer class="footer">
 <div class="container">
 <p>© 2026 Sebastian Olarte – Backend Developer</p>
