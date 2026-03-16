@@ -36,11 +36,12 @@
 
 <div class="project-card">
 
-<h3>Knowledge Hub API</h3>
+<h3>Knowledge Hub Backend System</h3>
 
 <p class="project-description">
-Production-ready backend API built with NestJS for managing
-technical resources, developer knowledge and learning progress.
+Production-grade backend system built with NestJS using
+a modular and event-driven architecture for managing
+developer resources and technical knowledge.
 </p>
 
 <ul class="project-tech">
@@ -50,6 +51,10 @@ technical resources, developer knowledge and learning progress.
 <li>PostgreSQL</li>
 <li>Prisma ORM</li>
 <li>Redis</li>
+<li>BullMQ</li>
+<li>Background Workers</li>
+<li>Event-driven Architecture</li>
+<li>AWS S3</li>
 <li>Docker</li>
 <li>JWT Authentication</li>
 <li>Refresh Token Rotation</li>
@@ -61,17 +66,21 @@ technical resources, developer knowledge and learning progress.
 
 <p class="project-role">
 
-Designed and implemented a modular backend architecture
-using NestJS modules.
+Designed and implemented a scalable backend architecture
+based on NestJS modules and event-driven processing.
 
-Features include:
+Key features include:
 
-• secure authentication with refresh token rotation  
-• Redis caching with cache invalidation  
-• resources, categories and favorites system  
-• role-based authorization  
-• Swagger API documentation  
-• integration testing  
+• secure authentication system with JWT and refresh token rotation  
+• session management and token revocation using Redis  
+• background job processing with BullMQ queues  
+• dedicated worker service for asynchronous tasks  
+• dead letter queue (DLQ) for failed jobs  
+• file uploads and storage using AWS S3  
+• modular backend architecture using NestJS modules  
+• Redis caching strategies to improve performance  
+• REST API documentation using Swagger  
+• integration and E2E testing with Jest and Supertest  
 
 </p>
 
@@ -84,12 +93,13 @@ class="btn secondary"
 >
 GitHub
 </a>
+
 <a
 href="https://knowledge-hub-api-kuy2.onrender.com/docs"
 target="_blank"
 class="btn secondary"
 >
-Live Demo
+Live API
 </a>
 
 </div>
@@ -103,7 +113,9 @@ Live Demo
 <h3>Educational LMS Backend API</h3>
 
 <p class="project-description">
-Production-ready REST API for an educational platform.
+REST API for an educational platform designed to manage
+courses, users and learning resources using a secure
+backend architecture.
 </p>
 
 <ul class="project-tech">
@@ -113,10 +125,22 @@ Production-ready REST API for an educational platform.
 <li>PostgreSQL</li>
 <li>Redis</li>
 <li>Docker</li>
-<li>JWT</li>
-<li>RBAC</li>
+<li>JWT Authentication</li>
+<li>Role-based Access Control</li>
 
 </ul>
+
+<p class="project-role">
+
+Designed and implemented backend APIs supporting:
+
+• authentication and authorization  
+• database-driven resource management  
+• REST API endpoints for learning resources  
+• Redis caching for improved performance  
+• secure API architecture with role-based permissions  
+
+</p>
 
 <div class="project-links">
 
@@ -139,7 +163,8 @@ GitHub
 <h3>LMS API Testing Dashboard</h3>
 
 <p class="project-description">
-Frontend dashboard used to test the backend API.
+Frontend dashboard created to test backend API endpoints
+and simulate interactions with the LMS backend system.
 </p>
 
 <ul class="project-tech">
@@ -150,6 +175,14 @@ Frontend dashboard used to test the backend API.
 <li>REST API Integration</li>
 
 </ul>
+
+<p class="project-role">
+
+Built a simple frontend dashboard to interact with
+backend API endpoints, enabling quick manual testing
+of authentication, resources and API responses.
+
+</p>
 
 <div class="project-links">
 
@@ -188,11 +221,27 @@ document management and business process automation.
 
 <li>Business Process Analysis</li>
 <li>Database Modeling</li>
-<li>Enterprise Software</li>
+<li>Enterprise Software Systems</li>
 
 </ul>
 
+<p class="project-role">
+
+Participated in the design and organization of an HR
+management platform focused on employee data,
+contracts and document workflows.
+
+Responsibilities included:
+
+• analyzing business processes  
+• structuring database logic  
+• supporting backend logic improvements  
+• assisting development teams with system workflows  
+
+</p>
+
 </div>
+
 
 </div>
 </section>
