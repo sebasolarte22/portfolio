@@ -1,207 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Resume | Sebastian Olarte</title>
-
-<link rel="stylesheet" href="css/main.css" />
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Sebastian Olarte</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
-
 <body>
 
-<header class="header">
-<div class="container header-content">
-
-<h1 class="logo">Sebastian Olarte</h1>
-
-<nav class="nav">
-<a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
-<a href="resume.html" class="active">Resume</a>
-<a href="contact.html">Contact</a>
-</nav>
-
-</div>
-</header>
-
-
-<section class="resume">
-<div class="container">
-
-<h2>Resume</h2>
-
-
-<!-- PROFILE -->
-<div class="resume-section">
-
-<h3>Profile</h3>
-
-<p>
-
-Backend Developer focused on building scalable backend systems,
-secure REST APIs and distributed backend architectures.
-
-Experience designing production-grade backend systems using
-Node.js, NestJS and PostgreSQL while implementing secure
-authentication systems with JWT and refresh token rotation.
-
-Strong experience with Redis caching strategies,
-background job processing, event-driven architectures,
-AWS cloud storage integration and Dockerized infrastructure.
-
-Industrial Engineer with strong analytical thinking applied to
-system design, backend architecture and scalable applications.
-
-</p>
-
-</div>
-
-
-<!-- BACKEND ENGINEERING FOCUS -->
-<div class="resume-section">
-
-<h3>Backend Engineering Focus</h3>
-
-<ul class="skills-list">
-
-<li>REST API Architecture</li>
-<li>NestJS Backend Architecture</li>
-<li>Authentication Systems</li>
-<li>JWT & Refresh Token Rotation</li>
-<li>Role-Based Access Control</li>
-<li>Database Modeling</li>
-<li>Redis Caching Strategies</li>
-<li>API Security</li>
-<li>Integration Testing</li>
-<li>Containerized Infrastructure</li>
-<li>Cloud Deployment</li>
-
-</ul>
-
-</div>
-
-
-<!-- TECHNICAL SKILLS -->
-<div class="resume-section">
-
-<h3>Technical Skills</h3>
-
-<ul class="skills-list">
-
-<li>Node.js</li>
-<li>NestJS</li>
-<li>TypeScript</li>
-<li>Express</li>
-<li>PostgreSQL</li>
-<li>Prisma ORM</li>
-<li>SQL</li>
-<li>Redis</li>
-<li>BullMQ</li>
-<li>Event-Driven Architecture</li>
-<li>Background Workers</li>
-<li>Queue Systems</li>
-<li>AWS S3</li>
-<li>Docker</li>
-<li>REST API Design</li>
-<li>JWT Authentication</li>
-<li>Refresh Token Rotation</li>
-<li>Role-based Access Control</li>
-<li>Swagger API Documentation</li>
-<li>Jest</li>
-<li>Supertest</li>
-<li>API Testing (Postman)</li>
-<li>Git & GitHub</li>
-<li>HTML, CSS, JavaScript</li>
-
-</ul>
-
-</div>
-
-
-<!-- EXPERIENCE -->
-<div class="resume-section">
-
-<h3>Experience</h3>
-
-<div class="experience-item">
-
-<h4>Software Developer / Backend Support</h4>
-
-<span>Software Development Company – Present</span>
-
-<ul>
-
-<li>
-Participating in the design and organization of an HR management system.
-</li>
-
-<li>
-Contributing to database queries, debugging and backend logic improvements.
-</li>
-
-<li>
-Supporting business process implementation for employee records,
-contracts and document management.
-</li>
-
-<li>
-Collaborating with development teams to improve system workflows
-and application logic.
-</li>
-
-<li>
-Working with SQL databases to retrieve, analyze and structure
-business data.
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-
-<!-- EDUCATION -->
-<div class="resume-section">
-
-<h3>Education</h3>
-
-<p>
-
-<strong>Industrial Engineering</strong><br />
-Bachelor’s Degree
-
-</p>
-
-</div>
-
-
-<!-- LANGUAGES -->
-<div class="resume-section">
-
-<h3>Languages</h3>
-
-<ul>
-
-<li>Spanish – Native</li>
-<li>English – Conversational</li>
-
-</ul>
-
-</div>
-
-
-</div>
-</section>
-
-
-<footer class="footer">
-<div class="container">
-<p>© 2026 Sebastian Olarte – Backend Developer</p>
-</div>
-</footer>
-
+  <header class="header">
+    <div class="container header-content">
+      <span class="logo">Sebastian Olarte</span>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="lang-toggle">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+
+      <div class="lang lang-en active">
+        <h2>Resume</h2>
+        <p>Backend Developer with production-grade NestJS experience.</p>
+      </div>
+
+      <div class="lang lang-es">
+        <h2>Curriculum</h2>
+        <p>Backend Developer con experiencia productiva en NestJS.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="resume-page">
+    <div class="container">
+
+      <!-- PROFILE -->
+      <div class="resume-block">
+
+        <div class="lang lang-en active">
+          <p class="resume-block-title">Profile</p>
+          <p class="profile-text">
+            Backend Developer focused on building scalable REST APIs and distributed architectures.
+            Experience designing production-grade systems using NestJS, TypeScript and PostgreSQL,
+            implementing secure authentication with JWT and refresh token rotation, Redis caching strategies,
+            background job processing with BullMQ, event-driven patterns, AWS S3 cloud storage and Dockerized deployments.
+            Industrial Engineering background brings rigorous analytical thinking to system design, database modeling and scalable application architecture.
+          </p>
+        </div>
+
+        <div class="lang lang-es">
+          <p class="resume-block-title">Perfil</p>
+          <p class="profile-text">
+            Desarrollador Backend enfocado en construir APIs REST escalables y arquitecturas distribuidas.
+            Experiencia disenando sistemas de nivel productivo con NestJS, TypeScript y PostgreSQL,
+            implementando autenticacion segura con JWT y rotacion de refresh tokens, estrategias de cache con Redis,
+            procesamiento de tareas en background con BullMQ, patrones event-driven, almacenamiento en AWS S3 y despliegues con Docker.
+            La base en Ingenieria Industrial aporta pensamiento analitico riguroso al diseno de sistemas y arquitecturas de software.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- TECHNICAL SKILLS -->
+      <div class="resume-block">
+
+        <div class="lang lang-en active">
+          <p class="resume-block-title">Technical Skills</p>
+        </div>
+        <div class="lang lang-es">
+          <p class="resume-block-title">Habilidades Tecnicas</p>
+        </div>
+
+        <div class="skill-groups">
+
+          <div class="skill-group">
+            <span class="skill-group-label">Core Stack</span>
+            <div class="skill-chips">
+              <span class="chip primary">NestJS</span>
+              <span class="chip primary">TypeScript</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group-label">Database</span>
+            <div class="skill-chips">
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Prisma ORM</span>
+              <span class="chip">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group-label">Auth &amp; Security</span>
+            <div class="skill-chips">
+              <span class="chip">JWT</span>
+              <span class="chip">Refresh Token Rotation</span>
+              <span class="chip">Passport.js</span>
+              <span class="chip">Bcrypt</span>
+              <span class="chip">Rate Limiting</span>
+              <span class="chip">Helmet</span>
+              <span class="chip">RBAC</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group-label">Caching &amp; Queues</span>
+            <div class="skill-chips">
+              <span class="chip">Redis</span>
+              <span class="chip">BullMQ</span>
+              <span class="chip">Event-Driven Architecture</span>
+              <span class="chip">Background Workers</span>
+              <span class="chip">Dead Letter Queue</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group-label">Cloud &amp; DevOps</span>
+            <div class="skill-chips">
+              <span class="chip">AWS S3</span>
+              <span class="chip">Presigned URLs</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Render</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group-label">Testing &amp; Docs</span>
+            <div class="skill-chips">
+              <span class="chip">Jest 30</span>
+              <span class="chip">Supertest</span>
+              <span class="chip">Swagger / OpenAPI</span>
+              <span class="chip">Postman</span>
+              <span class="chip">Winston</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-group-label">Tools</span>
+            <div class="skill-chips">
+              <span class="chip">Git</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">class-validator</span>
+              <span class="chip">class-transformer</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="resume-block">
+
+        <div class="lang lang-en active">
+          <p class="resume-block-title">Experience</p>
+          <div class="experience-item">
+            <h4>Software Developer / Backend Support</h4>
+            <span class="experience-meta">Software Development Company &mdash; Present</span>
+            <ul class="experience-list">
+              <li>Participating in the design and organization of an enterprise HR management system.</li>
+              <li>Contributing to database queries, debugging and backend logic improvements.</li>
+              <li>Supporting business process implementation for employee records, contracts and document management.</li>
+              <li>Collaborating with development teams to improve system workflows and application logic.</li>
+              <li>Working with SQL databases to retrieve, analyze and structure business data.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lang lang-es">
+          <p class="resume-block-title">Experiencia</p>
+          <div class="experience-item">
+            <h4>Desarrollador de Software / Backend Support</h4>
+            <span class="experience-meta">Empresa de Desarrollo de Software &mdash; Actualidad</span>
+            <ul class="experience-list">
+              <li>Participando en el diseno y organizacion de un sistema empresarial de gestion de RR.HH.</li>
+              <li>Contribuyendo con consultas de base de datos, debugging y mejoras de logica backend.</li>
+              <li>Apoyando la implementacion de procesos de negocio para registros de empleados, contratos y gestion de documentos.</li>
+              <li>Colaborando con equipos de desarrollo para mejorar flujos de trabajo y logica de aplicacion.</li>
+              <li>Trabajando con bases de datos SQL para recuperar, analizar y estructurar datos de negocio.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="resume-block">
+
+        <div class="lang lang-en active">
+          <p class="resume-block-title">Education</p>
+          <div class="education-card">
+            <h4>Industrial Engineering</h4>
+            <span>Bachelor's Degree</span>
+          </div>
+        </div>
+
+        <div class="lang lang-es">
+          <p class="resume-block-title">Educacion</p>
+          <div class="education-card">
+            <h4>Ingenieria Industrial</h4>
+            <span>Titulo de Grado</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- LANGUAGES -->
+      <div class="resume-block">
+
+        <div class="lang lang-en active">
+          <p class="resume-block-title">Languages</p>
+          <div class="languages-list">
+            <div class="language-item">
+              <span class="language-name">Spanish</span>
+              <span class="language-level">Native</span>
+            </div>
+            <div class="language-item">
+              <span class="language-name">English</span>
+              <span class="language-level">Conversational</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lang lang-es">
+          <p class="resume-block-title">Idiomas</p>
+          <div class="languages-list">
+            <div class="language-item">
+              <span class="language-name">Espanol</span>
+              <span class="language-level">Nativo</span>
+            </div>
+            <div class="language-item">
+              <span class="language-name">Ingles</span>
+              <span class="language-level">Conversacional</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-copy">© 2026 Sebastian Olarte</span>
+      <div class="footer-links">
+        <a href="https://github.com/sebasolarte22" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/sebasolarte22/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/lang.js"></script>
 </body>
 </html>

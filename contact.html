@@ -4,62 +4,101 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Sebastian Olarte</title>
-
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="header">
     <div class="container header-content">
-      <h1 class="logo">Sebastian Olarte</h1>
-
+      <span class="logo">Sebastian Olarte</span>
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="resume.html">Resume</a>
         <a href="contact.html" class="active">Contact</a>
       </nav>
+      <div class="lang-toggle">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+      </div>
     </div>
   </header>
 
-  <!-- CONTACT -->
-  <section class="contact">
+  <div class="page-header">
     <div class="container">
-      <h2>Contact</h2>
 
-      <p class="contact-text">
-        Feel free to reach out for opportunities, collaborations,
-        or backend-related discussions.
-      </p>
+      <div class="lang lang-en active">
+        <h2>Contact</h2>
+        <p>Open to backend developer roles and collaboration opportunities.</p>
+      </div>
 
-      <ul class="contact-list">
-        <li>
-          <strong>Email:</strong>
-          <a href="mailto:sebasolarte02112000@gmail.com">sebasolarte02112000@gmail.com</a>
-        </li>
-        <li>
-          <strong>GitHub:</strong>
-          <a href="https://github.com/sebasolarte22" target="_blank">
-            github.com/sebasolarte22
-          </a>
+      <div class="lang lang-es">
+        <h2>Contacto</h2>
+        <p>Abierto a roles de desarrollador backend y oportunidades de colaboracion.</p>
+      </div>
 
-        </li>
-        <li>
-          <strong>LinkedIn:</strong>
-          <a href="https://www.linkedin.com/in/sebasolarte22/" target="_blank">
-            linkedin.com/in/sebasolarte22
-          </a>
-        </li>
-      </ul>
+    </div>
+  </div>
+
+  <section class="contact-page">
+    <div class="container">
+
+      <div class="lang lang-en active">
+        <p class="contact-intro">
+          Feel free to reach out for job opportunities, project collaborations or backend-related discussions.
+          I am available via email and professional networks below.
+        </p>
+      </div>
+
+      <div class="lang lang-es">
+        <p class="contact-intro">
+          No dudes en comunicarte para oportunidades laborales, colaboraciones en proyectos o discusiones sobre backend.
+          Estoy disponible por correo electronico y en las redes profesionales indicadas.
+        </p>
+      </div>
+
+      <div class="contact-cards">
+
+        <a href="mailto:sebasolarte02112000@gmail.com" class="contact-card">
+          <div class="contact-card-content">
+            <span class="contact-type">Email</span>
+            <span class="contact-value">sebasolarte02112000@gmail.com</span>
+          </div>
+          <span class="contact-arrow">&#8594;</span>
+        </a>
+
+        <a href="https://github.com/sebasolarte22" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-card-content">
+            <span class="contact-type">GitHub</span>
+            <span class="contact-value">github.com/sebasolarte22</span>
+          </div>
+          <span class="contact-arrow">&#8594;</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sebasolarte22/" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-card-content">
+            <span class="contact-type">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/sebasolarte22</span>
+          </div>
+          <span class="contact-arrow">&#8594;</span>
+        </a>
+
+      </div>
+
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container">
-      <p>© 2026 Sebastian Olarte – Backend Developer</p>
+    <div class="container footer-inner">
+      <span class="footer-copy">© 2026 Sebastian Olarte</span>
+      <div class="footer-links">
+        <a href="https://github.com/sebasolarte22" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/sebasolarte22/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
     </div>
   </footer>
 
+  <script src="js/lang.js"></script>
 </body>
 </html>

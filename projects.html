@@ -1,257 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Projects | Sebastian Olarte</title>
-
-<link rel="stylesheet" href="css/main.css" />
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Sebastian Olarte</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
-
 <body>
 
-<header class="header">
-<div class="container header-content">
-
-<h1 class="logo">Sebastian Olarte</h1>
-
-<nav class="nav">
-<a href="index.html">Home</a>
-<a href="projects.html" class="active">Projects</a>
-<a href="resume.html">Resume</a>
-<a href="contact.html">Contact</a>
-</nav>
-
-</div>
-</header>
-
-
-<section class="projects">
-<div class="container">
-
-<h2>Projects</h2>
-
-
-
-<div class="project-card">
-
-<h3>Knowledge Hub Backend System</h3>
-
-<p class="project-description">
-Production-grade backend system built with NestJS using
-a modular and event-driven architecture for managing
-developer resources and technical knowledge.
-</p>
-
-<ul class="project-tech">
-
-<li>NestJS</li>
-<li>TypeScript</li>
-<li>PostgreSQL</li>
-<li>Prisma ORM</li>
-<li>Redis</li>
-<li>BullMQ</li>
-<li>Background Workers</li>
-<li>Event-driven Architecture</li>
-<li>AWS S3</li>
-<li>Docker</li>
-<li>JWT Authentication</li>
-<li>Refresh Token Rotation</li>
-<li>RBAC</li>
-<li>Swagger</li>
-<li>Jest</li>
-
-</ul>
-
-<p class="project-role">
-
-Designed and implemented a scalable backend architecture
-based on NestJS modules and event-driven processing.
-
-Key features include:
-
-• secure authentication system with JWT and refresh token rotation  
-• session management and token revocation using Redis  
-• background job processing with BullMQ queues  
-• dedicated worker service for asynchronous tasks  
-• dead letter queue (DLQ) for failed jobs  
-• file uploads and storage using AWS S3  
-• modular backend architecture using NestJS modules  
-• Redis caching strategies to improve performance  
-• REST API documentation using Swagger  
-• integration and E2E testing with Jest and Supertest  
-
-</p>
-
-<div class="project-links">
-
-<a
-href="https://github.com/sebasolarte22/knowledge-hub-api"
-target="_blank"
-class="btn secondary"
->
-GitHub
-</a>
-
-<a
-href="https://knowledge-hub-api-kuy2.onrender.com/docs"
-target="_blank"
-class="btn secondary"
->
-Live API
-</a>
-
-</div>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>Educational LMS Backend API</h3>
-
-<p class="project-description">
-REST API for an educational platform designed to manage
-courses, users and learning resources using a secure
-backend architecture.
-</p>
-
-<ul class="project-tech">
-
-<li>Node.js</li>
-<li>Express</li>
-<li>PostgreSQL</li>
-<li>Redis</li>
-<li>Docker</li>
-<li>JWT Authentication</li>
-<li>Role-based Access Control</li>
-
-</ul>
-
-<p class="project-role">
-
-Designed and implemented backend APIs supporting:
-
-• authentication and authorization  
-• database-driven resource management  
-• REST API endpoints for learning resources  
-• Redis caching for improved performance  
-• secure API architecture with role-based permissions  
-
-</p>
-
-<div class="project-links">
-
-<a
-href="https://github.com/sebasolarte22/educational-backend-api"
-target="_blank"
-class="btn secondary"
->
-GitHub
-</a>
-
-</div>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>LMS API Testing Dashboard</h3>
-
-<p class="project-description">
-Frontend dashboard created to test backend API endpoints
-and simulate interactions with the LMS backend system.
-</p>
-
-<ul class="project-tech">
-
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>REST API Integration</li>
-
-</ul>
-
-<p class="project-role">
-
-Built a simple frontend dashboard to interact with
-backend API endpoints, enabling quick manual testing
-of authentication, resources and API responses.
-
-</p>
-
-<div class="project-links">
-
-<a
-href="https://github.com/sebasolarte22/lms-api-dashboard"
-target="_blank"
-class="btn secondary"
->
-GitHub
-</a>
-
-<a
-href="https://lms-api-dashboard.netlify.app"
-target="_blank"
-class="btn secondary"
->
-Live Demo
-</a>
-
-</div>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>HR Management System</h3>
-
-<p class="project-description">
-Enterprise HR system focused on employee records,
-document management and business process automation.
-</p>
-
-<ul class="project-tech">
-
-<li>Business Process Analysis</li>
-<li>Database Modeling</li>
-<li>Enterprise Software Systems</li>
-
-</ul>
-
-<p class="project-role">
-
-Participated in the design and organization of an HR
-management platform focused on employee data,
-contracts and document workflows.
-
-Responsibilities included:
-
-• analyzing business processes  
-• structuring database logic  
-• supporting backend logic improvements  
-• assisting development teams with system workflows  
-
-</p>
-
-</div>
-
-
-</div>
-</section>
-
-
-<footer class="footer">
-<div class="container">
-<p>© 2026 Sebastian Olarte – Backend Developer</p>
-</div>
-</footer>
-
+  <header class="header">
+    <div class="container header-content">
+      <span class="logo">Sebastian Olarte</span>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="lang-toggle">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+
+      <div class="lang lang-en active">
+        <h2>Projects</h2>
+        <p>Production-grade backend systems and API architectures.</p>
+      </div>
+
+      <div class="lang lang-es">
+        <h2>Proyectos</h2>
+        <p>Sistemas backend listos para produccion y arquitecturas de API.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="projects">
+    <div class="container">
+
+      <!-- FEATURED: Knowledge Hub API -->
+      <div class="project-featured">
+
+        <div class="project-featured-top">
+          <span class="status-badge live">
+            <span class="pulse-dot"></span>
+            Live
+          </span>
+          <span class="status-badge" style="background:rgba(56,189,248,0.08);color:var(--accent);border-color:rgba(56,189,248,0.2);font-size:0.7rem;padding:3px 8px;text-transform:none;font-weight:500;">Featured</span>
+        </div>
+
+        <h3>Knowledge Hub API</h3>
+
+        <div class="lang lang-en active">
+          <p>Production-grade event-driven REST API for managing developer knowledge resources. Built with NestJS using a fully modular architecture with 12 domain modules, covering auth, resources, categories, favorites, users, storage, queues, events, redis, logger, prisma and common utilities.</p>
+        </div>
+        <div class="lang lang-es">
+          <p>API REST event-driven de nivel productivo para gestionar recursos de conocimiento para desarrolladores. Construida con NestJS usando una arquitectura completamente modular con 12 modulos de dominio, cubriendo auth, resources, categories, favorites, users, storage, queues, events, redis, logger, prisma y common.</p>
+        </div>
+
+        <div class="project-body">
+          <div class="project-features">
+
+            <div class="lang lang-en active">
+              <h4>Key Features</h4>
+              <ul>
+                <li>JWT access and refresh token rotation with Redis blacklist</li>
+                <li>Multi-session management and token revocation</li>
+                <li>BullMQ queues with retry strategies and dead-letter queue</li>
+                <li>Domain event publishing via internal EventBus</li>
+                <li>Versioned Redis cache-aside pattern</li>
+                <li>AWS S3 file uploads with presigned URLs</li>
+                <li>Full-text search with cursor-based pagination</li>
+                <li>Favorites system with per-user state</li>
+                <li>RBAC with role-based guards</li>
+                <li>Helmet, rate limiting and input sanitization</li>
+              </ul>
+            </div>
+
+            <div class="lang lang-es">
+              <h4>Caracteristicas Clave</h4>
+              <ul>
+                <li>Rotacion de tokens JWT access y refresh con blacklist en Redis</li>
+                <li>Gestion multi-sesion y revocacion de tokens</li>
+                <li>Colas BullMQ con reintentos y dead-letter queue</li>
+                <li>Publicacion de eventos de dominio via EventBus interno</li>
+                <li>Patron cache-aside versionado con Redis</li>
+                <li>Subida de archivos a AWS S3 con presigned URLs</li>
+                <li>Busqueda full-text con paginacion por cursor</li>
+                <li>Sistema de favoritos por usuario</li>
+                <li>RBAC con guards por rol</li>
+                <li>Helmet, rate limiting y sanitizacion de entradas</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="project-metrics">
+
+            <div class="lang lang-en active">
+              <h4>Metrics</h4>
+            </div>
+            <div class="lang lang-es">
+              <h4>Metricas</h4>
+            </div>
+
+            <div class="metrics-row">
+              <div class="metric">
+                <span class="metric-value">12</span>
+                <span class="metric-label">Modules</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">26</span>
+                <span class="metric-label">Tests</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value" style="font-size:1.1rem;color:var(--green);">Live</span>
+                <span class="metric-label">Deployed</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <ul class="project-tech-tags">
+          <li>NestJS</li>
+          <li>TypeScript</li>
+          <li>PostgreSQL</li>
+          <li>Prisma ORM</li>
+          <li>Redis</li>
+          <li>BullMQ</li>
+          <li>AWS S3</li>
+          <li>Docker</li>
+          <li>JWT</li>
+          <li>Passport.js</li>
+          <li>Swagger</li>
+          <li>Jest</li>
+          <li>Supertest</li>
+          <li>Winston</li>
+        </ul>
+
+        <div class="project-links">
+          <a href="https://github.com/sebasolarte22/knowledge-hub-api" target="_blank" rel="noopener noreferrer" class="btn secondary">GitHub</a>
+          <a href="https://knowledge-hub-api-kuy2.onrender.com/docs" target="_blank" rel="noopener noreferrer" class="btn primary">Live API Docs</a>
+        </div>
+
+      </div>
+
+      <!-- GRID: Other projects -->
+      <div class="projects-grid">
+
+        <!-- Educational LMS Backend -->
+        <div class="project-card">
+          <div class="project-card-top">
+            <span class="status-badge local">Local</span>
+          </div>
+          <h3>Educational LMS Backend API</h3>
+
+          <div class="lang lang-en active">
+            <p>REST API for an educational platform managing courses, users and learning resources with a secure backend architecture including authentication, RBAC and Redis caching.</p>
+          </div>
+          <div class="lang lang-es">
+            <p>API REST para una plataforma educativa que gestiona cursos, usuarios y recursos de aprendizaje con arquitectura backend segura, autenticacion, RBAC y cache con Redis.</p>
+          </div>
+
+          <ul class="project-tech-tags">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>PostgreSQL</li>
+            <li>Redis</li>
+            <li>Docker</li>
+            <li>JWT</li>
+            <li>RBAC</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/sebasolarte22/educational-backend-api" target="_blank" rel="noopener noreferrer" class="btn secondary">GitHub</a>
+          </div>
+        </div>
+
+        <!-- LMS Dashboard -->
+        <div class="project-card">
+          <div class="project-card-top">
+            <span class="status-badge live">
+              <span class="pulse-dot"></span>
+              Live
+            </span>
+          </div>
+          <h3>LMS API Testing Dashboard</h3>
+
+          <div class="lang lang-en active">
+            <p>Frontend dashboard built to test and interact with backend API endpoints, enabling manual testing of authentication flows, resource operations and API responses.</p>
+          </div>
+          <div class="lang lang-es">
+            <p>Dashboard frontend construido para probar e interactuar con endpoints de API backend, habilitando pruebas manuales de flujos de autenticacion, operaciones de recursos y respuestas de API.</p>
+          </div>
+
+          <ul class="project-tech-tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>REST API</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/sebasolarte22/lms-api-dashboard" target="_blank" rel="noopener noreferrer" class="btn secondary">GitHub</a>
+            <a href="https://lms-api-dashboard.netlify.app" target="_blank" rel="noopener noreferrer" class="btn primary">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- HR Management System -->
+        <div class="project-card">
+          <div class="project-card-top">
+            <span class="status-badge" style="background:rgba(99,102,241,0.1);color:#818cf8;border-color:rgba(99,102,241,0.25);font-size:0.72rem;padding:3px 10px;border-radius:999px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;">Work</span>
+          </div>
+          <h3>HR Management System</h3>
+
+          <div class="lang lang-en active">
+            <p>Enterprise HR system for employee records, document management and business process automation. Contributed to database modeling, backend logic and SQL query optimization.</p>
+          </div>
+          <div class="lang lang-es">
+            <p>Sistema empresarial de RR.HH. para registros de empleados, gestion documental y automatizacion de procesos. Contribui al modelado de base de datos, logica backend y optimizacion de consultas SQL.</p>
+          </div>
+
+          <ul class="project-tech-tags">
+            <li>Business Process Analysis</li>
+            <li>Database Modeling</li>
+            <li>Enterprise Software</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-copy">© 2026 Sebastian Olarte</span>
+      <div class="footer-links">
+        <a href="https://github.com/sebasolarte22" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/sebasolarte22/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/lang.js"></script>
 </body>
 </html>
